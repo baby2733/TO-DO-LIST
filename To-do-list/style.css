@@ -1,0 +1,168 @@
+body{
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px;
+}
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    border: solid aqua;
+    box-shadow: 0px 0px 0px 15px aqua;
+    border-radius: 0px 180px;
+    background-color: black;
+    height:650px;
+    width: 400px;
+    
+
+
+}
+
+.to-do-list{
+    margin: 20px 20px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.para{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+section{
+    align-items: center;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text{
+    margin-top: 20px;
+    width: 300px;
+    height: 20px;
+    border: solid aqua;
+
+
+}
+
+#submit{
+    align-items: center;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: solid white;
+    background-color: aqua;
+    color: black;
+}
+
+#submit:hover{
+    transform: scale(1.2);
+}
+
+#submit:active{
+    box-shadow: inset -2px -3px 3px 3px #999595;
+}
+
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+.ul{
+    max-height: 50px;
+    font-size:15px;
+    text-transform: uppercase;
+    margin: 0px 5px;
+    max-height: max-content;
+    
+   
+}
+
+.div1{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white; 
+    margin: 5px 15px;
+    cursor: pointer;
+    max-height: 50px;
+   
+    max-height: max-content;
+}
+
+
+.check{
+    position: absolute;
+    margin-left: 320px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-top: 0px;
+    display: flex;
+    max-height: max-content;
+    appearance: none;
+    -webkit-appearance:none;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    cursor: pointer;
+    border: solid rgba(0, 255, 255, 0.199);
+}
+
+.check:hover{
+    background-color: rgba(255, 255, 255, 0.822);
+}
+
+.check:checked{
+    background-image: url("r.jfif");
+    background-size: cover;
+}
+
+#button{
+    border: solid rgba(0, 255, 255, 0.253);
+    margin-left: 350px;
+    margin-bottom: 15px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-image: url("x.png");
+    background-size: cover;
+    
+}
+
+#button:hover{
+    transform: scale(1.2);
+}
+
+#button:active{
+    box-shadow: inset -2px -3px 3px 3px white;
+}
+
+
+.p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+   
+   
+}
+
+
+
+
+
+
+
